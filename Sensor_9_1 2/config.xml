@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.sensordemo"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Sensors</name>
+
+    <description>
+        A sensor demonstration application.
+    </description>
+
+    <author href="http://www.worcester.ac.uk" email="hewc1_16@worc.ac.uk">
+        Chris Hewlett
+    </author>
+	
+	<plugin name="cordova-plugin-device-motion" />
+
+</widget>
